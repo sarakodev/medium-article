@@ -1,0 +1,130 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.link-medium {
+  color: #848181;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #a2e1cb;
+  transition: all 0.2s linear
+}
+
+
+a:hover {
+  background-color: #d2efde;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  color: #A0A0A0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  unicode-bidi: isolate;
+}
+/*
+.green-button {
+  background-color: #ABEDC6;
+  border: none;
+  color: rgb(38, 59, 36);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: 1.1rem
+}
+
+.banner {
+  background-image: url(./images/austria_bloc_bkgd.jpg);
+  height: 250px;
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+/* .card_img {
+  width: 10%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid rgb(251, 251, 251);
+} */
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
